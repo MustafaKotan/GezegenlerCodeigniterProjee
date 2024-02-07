@@ -1,0 +1,704 @@
+ERROR - 2024-01-13 15:16:05 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:16:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:16:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:16:05 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:21:46 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:21:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:21:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:21:46 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:33:58 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-01-13 15:33:58 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:33:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:33:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:33:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:33:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:33:58 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:33:58 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:43:07 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:43:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:07 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:43:09 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:43:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:09 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:43:53 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:43:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:53 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-13 15:43:53 --> mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Uygulamalar\Wamp\www\gezegenler\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+#9 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+#10 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-01-13 15:43:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:43:53 --> [Caused by] mysqli_sql_exception: Table 'gezegenler.tanrilar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tanrilar`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tanrilar`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tanrilar`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tanrilar`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AnasayfaModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Anasayfa.php(15): App\Models\AnasayfaModel->kayitlar()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 15:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-13 15:46:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/incele.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/incele.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sayfalar/incele', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(111): view('sayfalar/incele')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->incele('dunya')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 15:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:15 --> CSRF token verified.
+INFO - 2024-01-13 15:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-13 15:46:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/kayit_listele.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/kayit_listele.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sayfalar/kayit_listele', [], true)
+ 3 APPPATH\Controllers\Panel.php(102): view('sayfalar/kayit_listele')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_listele()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 15:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:46:58 --> CSRF token verified.
+INFO - 2024-01-13 15:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:47:52 --> CSRF token verified.
+INFO - 2024-01-13 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-13 15:47:53 --> mysqli_sql_exception: Duplicate entry '0' for key 'gezegenler.PRIMARY' in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ge...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('Mars', 'mars', 'Mars is the fou...', '1705160873_34e8...')
+#6 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-13 15:47:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 2 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('Mars', 'mars', 'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname "the Red Planet".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\'s planets.', '1705160873_34e8d692c01c5fa84b4e.png')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:47:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'Mars\', \'mars\', \'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname \\"the Red Planet\\".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\\\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\\\'s planets.\', \'1705160873_34e8d692c01c5fa84b4e.png\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'Mars\', \'mars\', \'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname \\"the Red Planet\\".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\\\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\\\'s planets.\', \'1705160873_34e8d692c01c5fa84b4e.png\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 4 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('Mars', 'mars', 'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname "the Red Planet".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\'s planets.', '1705160873_34e8d692c01c5fa84b4e.png')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:47:53 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'Mars\', \'mars\', \'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname \\"the Red Planet\\".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\\\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\\\'s planets.\', \'1705160873_34e8d692c01c5fa84b4e.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'Mars\', \'mars\', \'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname \\"the Red Planet\\".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\\\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\\\'s planets.\', \'1705160873_34e8d692c01c5fa84b4e.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'Mars\', \'mars\', \'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname \\"the Red Planet\\".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\\\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\\\'s planets.\', \'1705160873_34e8d692c01c5fa84b4e.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 5 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('Mars', 'mars', 'Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust, giving it the nickname "the Red Planet".[21][22] Mars hosts many enormous extinct volcanos (such as Olympus Mons, 21.9 km or 13.6 mi tall) and one of the largest canyons in the Solar System (Valles Marineris, 4,000 km or 2,500 mi long). For comparison, Mars\'s diameter is 6,779 km (4,212 mi). It is the second smallest of the Solar System\'s planets.', '1705160873_34e8d692c01c5fa84b4e.png')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:58:06 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('kayit_ekle', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 15:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 15:58:16 --> CSRF token verified.
+INFO - 2024-01-13 15:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-13 15:58:16 --> mysqli_sql_exception: Duplicate entry '0' for key 'gezegenler.PRIMARY' in D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ge...', 0)
+#1 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ge...')
+#2 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ge...')
+#3 D:\Uygulamalar\Wamp\www\gezegenler\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ge...', Array, false)
+#4 D:\Uygulamalar\Wamp\www\gezegenler\app\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Uygulamalar\Wamp\www\gezegenler\app\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('afaf', 'afaf', 'afaf', '1705161496_e13c...')
+#6 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+#7 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#8 D:\Uygulamalar\Wamp\www\gezegenler\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Uygulamalar\Wamp\www\gezegenler\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-13 15:58:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 2 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('afaf', 'afaf', 'afaf', '1705161496_e13c3bc309fea6c96a6d.png')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:58:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'afaf\', \'afaf\', \'afaf\', \'1705161496_e13c3bc309fea6c96a6d.png\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'afaf\', \'afaf\', \'afaf\', \'1705161496_e13c3bc309fea6c96a6d.png\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 4 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('afaf', 'afaf', 'afaf', '1705161496_e13c3bc309fea6c96a6d.png')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-13 15:58:16 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'gezegenler.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'afaf\', \'afaf\', \'afaf\', \'1705161496_e13c3bc309fea6c96a6d.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'afaf\', \'afaf\', \'afaf\', \'1705161496_e13c3bc309fea6c96a6d.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (\'afaf\', \'afaf\', \'afaf\', \'1705161496_e13c3bc309fea6c96a6d.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gezegenler` (`baslik`, `url`, `icerik`, `resim`) VALUES (:baslik:, :url:, :icerik:, :resim:)', [...], false)
+ 5 APPPATH\Models\PanelModel.php(24): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Panel.php(69): App\Models\PanelModel->veri_ekle('afaf', 'afaf', 'afaf', '1705161496_e13c3bc309fea6c96a6d.png')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_ekle()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 16:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:10:33 --> CSRF token verified.
+INFO - 2024-01-13 16:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-13 16:11:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/kayit_listele.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/kayit_listele.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sayfalar/kayit_listele', [], true)
+ 3 APPPATH\Controllers\Panel.php(102): view('sayfalar/kayit_listele')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Panel->kayit_listele()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 16:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:12:12 --> CSRF token verified.
+INFO - 2024-01-13 16:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:12:49 --> CSRF token verified.
+INFO - 2024-01-13 16:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:13:20 --> CSRF token verified.
+INFO - 2024-01-13 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:13:55 --> CSRF token verified.
+INFO - 2024-01-13 16:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-13 16:25:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/incele.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/incele.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sayfalar/incele', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(111): view('sayfalar/incele')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->incele('dunya')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 16:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 16:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 17:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-13 17:12:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/incele.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/incele.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('sayfalar/incele', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(111): view('sayfalar/incele')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->incele('dunya')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-13 17:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:09:13 --> CSRF token verified.
+INFO - 2024-01-13 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-13 22:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

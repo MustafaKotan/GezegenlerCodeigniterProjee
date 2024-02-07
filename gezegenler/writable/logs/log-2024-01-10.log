@@ -1,0 +1,364 @@
+CRITICAL - 2024-01-10 22:38:54 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:40:03 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:42:12 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:42:13 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:01 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:02 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:02 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:02 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:02 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:03 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 22:45:05 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:00:45 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:00:47 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:00:48 --> TypeError: CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in D:\Uygulamalar\Wamp\www\gezegenler\app\Config\Routes.php on line 9
+in SYSTEMPATH\Router\RouteCollection.php on line 1017.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Router\RouteCollection->get([...], 'login', 'anasayfa::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\Uygulamalar\\Wamp\\www\\gezegenler\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:01:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:12:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:12:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:12:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:23:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:25:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:31:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:31:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 23:31:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tena/footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tena/footer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tena/footer', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(9): view('tena/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Anasayfa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
